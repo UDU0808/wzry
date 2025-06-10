@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    width: 180px; /* 商品图片的宽度 */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .product-item {
+        width: 100%;
+    }
+}
